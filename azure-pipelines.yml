@@ -6,6 +6,8 @@
 trigger:
 - master
 
+name: $(major).$(minor).$(Rev:r)
+
 pool:
   vmImage: 'windows-latest'
 
